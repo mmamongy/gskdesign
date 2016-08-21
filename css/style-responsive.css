@@ -1,0 +1,51 @@
+@media (max-width:768px) { 
+    .list-inline>li {
+        margin-bottom: 10px;
+        float: none !important;
+    }
+    .list-inline>li > a, .list-inline>li > a:hover,.list-inline>li > a:focus {
+        font-size: 11px;
+    }
+    .gsk-footer {
+        height: 103px;
+    }
+    .gsk-logo {
+        width: 60px;
+    }
+    .merit-logo {
+        width:150px;
+    }
+    .gsk-desc {
+    width: 148px;;
+    }
+    .Dr-info {
+        margin: 15% 0; 
+    font-size: 20px;
+    text-align: left;
+    }
+    .name-header{
+        margin-top:30%; 
+    }
+    .profile{
+        margin-top: 30%;
+    }
+    .profile-image{
+        width: 115px;
+        height: 115px;
+        right: 30%;
+        
+    }
+    .form-wrapper {
+        width: 100%;
+    }
+    .OR{
+        float: none !important;
+        display: none;
+    }
+}
+@media (min-width:1200px) {
+    .home-page .col-lg-3,
+.form-wrapper-01 .col-lg-3{
+    width: 24%;
+}
+}
